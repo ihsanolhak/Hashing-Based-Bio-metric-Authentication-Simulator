@@ -30,5 +30,11 @@ A console-based **biometric authentication simulator** built in **C++**, demonst
   2. Birth Month
   3. Favorite Person
   4. Favorite Thing About Them
-- System generates a **unique identifier** in the format:
+### 2. Authentication
+- User provides their saved biometric string.
+- System **hashes** the input and checks against stored hashes.
+- If a match is found → ✅ Authentication Successful  
+- If no match → ❌ Authentication Failed
+
+---
 
